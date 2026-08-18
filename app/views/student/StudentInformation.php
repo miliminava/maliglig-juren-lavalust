@@ -353,21 +353,19 @@
 
     <div class="content">
 
-        <!-- Profile Picture + Name + Description -->
+        
         <div class="profile-section">
             <div class="profile-pic">
-                <img src="<?= base_url('public/assets/profile.jpg') ?>" alt="Student profile picture">
+                <img src="<?= base_url('assets/profile.jpg') ?>" alt="Student profile picture">
             </div>
 
             <div class="student-name"><?= $name ?></div>
             <p class="short-description">
-                Dedicated student passionate about learning and continuous growth. Always eager to take on new challenges and contribute to meaningful projects.
-            </p>
+                Hey there! I'm <?= $name ?>, a 3rd-year Information Technology student at Mindoro State University. I love exploring things in related to technology.
         </div>
 
         <h1>Student Information</h1>
 
-        <!-- Personal Information -->
         <div class="info-card">
             <div class="section-title">Personal Information</div>
             <div class="info-row">
@@ -380,7 +378,6 @@
             </div>
         </div>
 
-        <!-- Academic Details -->
         <div class="info-card">
             <div class="section-title">Academic Details</div>
             <div class="info-row">
@@ -397,7 +394,6 @@
             </div>
         </div>
 
-        <!-- Skills & Interests -->
         <div class="info-card">
             <div class="section-title">Skills & Interests</div>
             <div class="skills-list">
@@ -412,10 +408,9 @@
 
     </div>
 
-    <!-- Footer (unchanged) -->
     <footer>
         <div class="footer-content">
-            <div class="footer-title">Contact Us</div>
+            <div class="footer-title">Contact Me</div>
             
             <div class="contact-info">
                 <div>Email: <a href="mailto:jurenmaliglig@gmail.com">jurenmaliglig@gmail.com</a></div>
