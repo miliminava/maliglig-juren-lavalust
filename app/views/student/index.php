@@ -122,8 +122,9 @@
         <p>Welcome to the student page!</p>
 
         <div class="buttons">
-            <a href="/student" class="btn">Home</a>
-            <a href="/student/verify" class="btn">View Profile</a>
+
+            <a href="<?= site_url('/student') ?>" class="btn">Home</a>
+            <a href="<?= site_url('/student/verify') ?>" class="btn">View Profile</a>
         </div>
     </div>
 </body>
